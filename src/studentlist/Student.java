@@ -14,10 +14,10 @@ public class Student {
  
     private String name;
     private int id;
+    private String Dob;
     
    
-    public Student()
-    {
+    public Student(){
            this.name = "Not Set";
            this.id =0;
     }
@@ -42,6 +42,13 @@ public class Student {
     public int getId()
     {
            return this.id;
+    }
+
+    /**
+     * @return the Dob
+     */
+    public String getDob() {
+        return Dob;
     }
             
     
