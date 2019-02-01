@@ -44,9 +44,6 @@ public class Student {
            return this.id;
     }
 
-    /**
-     * @return the Dob
-     */
     public String getDob() {
         return Dob;
     }
